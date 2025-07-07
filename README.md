@@ -69,7 +69,7 @@ https://renart-case-study-m6jy.onrender.com
 ✅ Getting Started
 
 1. Clone the project
-  git clone https://github.com/yourusername/mern-case-study.git
+  git clone https://github.com/Ihab-Mahmoud/Renart-case-study.git
 
 3. Install dependencies
   npm install
