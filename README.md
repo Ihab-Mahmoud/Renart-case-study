@@ -2,7 +2,11 @@
 
 This project is a full-stack e-commerce product showcase built using the MERN stack ( Express, React, Node.js). It was developed in response to a full-stack developer role assignment and demonstrates key skills including API design, frontend UI implementation, third-party API integration, and responsive interaction.
 
+
+
+
 🚀 Features
+
 ✅ Product Listing with name, description, image, and calculated price
 
 ✅ Dynamic Price Calculation:
@@ -21,6 +25,9 @@ This project is a full-stack e-commerce product showcase built using the MERN st
 
 ✅ Backend API with Express and MongoDB (or static JSON)
 
+
+
+
 🛠️ Tech Stack
 
 Frontend: React + Vite + Axios + React Router
@@ -32,6 +39,7 @@ Data: JSON file
 External API: GoldAPI (for live gold pricing)
 
 Deployment: Render 
+
 
 
 📂 Folder Structure
@@ -49,9 +57,13 @@ Deployment: Render
 └── .env               # API keys and configs
 
 
+
+
 🌐 Live Demo
 
 https://renart-case-study-m6jy.onrender.com
+
+
 
 
 ✅ Getting Started
