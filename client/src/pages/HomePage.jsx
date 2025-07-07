@@ -9,7 +9,7 @@ export const Loader = async ({ request }) => {
   const params = Object.fromEntries([
     ...new URL(request.url).searchParams.entries(),
   ]);
-  
+
   try {
     const { data } = await axios.get("/api/v1/product/get-all-products", {
       params,
@@ -23,7 +23,7 @@ export const Loader = async ({ request }) => {
 
 const HomePage = () => {
   const { data, params } = useLoaderData();
-  
+
   const scrollRef = useRef(null);
 
   const scrollLeft = () => {
@@ -40,7 +40,6 @@ const HomePage = () => {
     minScore: params?.minScore || "0",
     maxScore: params?.maxScore || "1",
   });
-  
 
   const filterFields = [
     {
@@ -83,7 +82,7 @@ const HomePage = () => {
   };
   return (
     <div>
-      <h2 className="p-3 " style={{ fontWeight: "300" }}>
+      <h2 className="p-3 " style={{ fontWeight: "300", marginTop: "30px" }}>
         Product List
       </h2>
       <form className="bg-white rounded-lg shadow-md w-full max-w-md py-2 ">
