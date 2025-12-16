@@ -1,82 +1,50 @@
 [
-  {
-    "name": "Engagement Ring 1",
-    "popularityScore": 0.85,
-    "weight": 2.1,
-    "images": {
-      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG085-100P-Y.jpg?v=1696588368",
-      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG085-100P-R.jpg?v=1696588406",
-      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG085-100P-W.jpg?v=1696588402"
+     {
+      "_id": "d1",
+      "name": "Dr. Ahmet Yılmaz",
+      "branch": "kardiyoloji",
+      "hospital": "Bursa Devlet Hastanesi",
+      "experience": 12,
+      "rating": 4.6
+    },
+    {
+      "_id": "d2",
+      "name": "Dr. Ayşe Demir",
+      "branch": "kardiyoloji",
+      "hospital": "Özel Anadolu Hastanesi",
+      "experience": 9,
+      "rating": 4.4
+    },
+    {
+      "_id": "d3",
+      "name": "Dr. Mehmet Kaya",
+      "branch": "ortopedi",
+      "hospital": "Uludağ Üniversitesi Hastanesi",
+      "experience": 15,
+      "rating": 4.8
+    },
+    {
+      "_id": "d4",
+      "name": "Dr. Elif Şahin",
+      "branch": "ortopedi",
+      "hospital": "Bursa Şehir Hastanesi",
+      "experience": 7,
+      "rating": 4.2
+    },
+    {
+      "_id": "d5",
+      "name": "Dr. Can Özkan",
+      "branch": "dermatoloji",
+      "hospital": "Özel Medicana Bursa",
+      "experience": 6,
+      "rating": 4.1
+    },
+    {
+      "_id": "d6",
+      "name": "Dr. Zeynep Acar",
+      "branch": "dermatoloji",
+      "hospital": "Bursa Devlet Hastanesi",
+      "experience": 11,
+      "rating": 4.5
     }
-  },
-  {
-    "name": "Engagement Ring 2",
-    "popularityScore": 0.51,
-    "weight": 3.4,
-    "images": {
-      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG012-Y.jpg?v=1707727068",
-      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG012-R.jpg?v=1707727068",
-      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG012-W.jpg?v=1707727068"
-    }
-  },
-  {
-    "name": "Engagement Ring 3",
-    "popularityScore": 0.92,
-    "weight": 3.8,
-    "images": {
-      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG020-100P-Y.jpg?v=1683534032",
-      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG020-100P-R.jpg?v=1683534032",
-      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG020-100P-W.jpg?v=1683534032"
-    }
-  },
-  {
-    "name": "Engagement Ring 4",
-    "popularityScore": 0.88,
-    "weight": 4.5,
-    "images": {
-      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG022-100P-Y.jpg?v=1683532153",
-      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG022-100P-R.jpg?v=1683532153",
-      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG022-100P-W.jpg?v=1683532153"
-    }
-  },
-  {
-    "name": "Engagement Ring 5",
-    "popularityScore": 0.80,
-    "weight": 2.5,
-    "images": {
-      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG074-100P-Y.jpg?v=1696232035",
-      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG074-100P-R.jpg?v=1696927124",
-      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG074-100P-W.jpg?v=1696927124"
-    }
-  },
-  {
-    "name": "Engagement Ring 6",
-    "popularityScore": 0.82,
-    "weight": 1.8,
-    "images": {
-      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG075-100P-Y.jpg?v=1696591786",
-      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG075-100P-R.jpg?v=1696591802",
-      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG075-100P-W.jpg?v=1696591798"
-    }
-  },
-  {
-    "name": "Engagement Ring 7",
-    "popularityScore": 0.70,
-    "weight": 5.2,
-    "images": {
-      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG094-100P-Y.jpg?v=1696589183",
-      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG094-100P-R.jpg?v=1696589214",
-      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG094-100P-W.jpg?v=1696589210"
-    }
-  },
-  {
-    "name": "Engagement Ring 8",
-    "popularityScore": 0.90,
-    "weight": 3.7,
-    "images": {
-      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG115-100P-Y.jpg?v=1696596076",
-      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG115-100P-R.jpg?v=1696596151",
-      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG115-100P-W.jpg?v=1696596147"
-    }
-  }
 ]

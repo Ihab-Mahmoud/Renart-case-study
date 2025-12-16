@@ -44,32 +44,7 @@ export const getAllProducts = async (req, res, next) =>
     const filePath = path.resolve(__dirname, "../utils/products.json");
     const jsonData = await readFile(filePath, "utf8");
     let data = JSON.parse(jsonData);
-
-    const goldPrice = await getGoldPricePerGramUSD();
-
-     data = data.map((product) => ({
-       ...product,
-       price: (
-         (product.popularityScore + 1) *
-         product.weight *
-         goldPrice
-       ).toFixed(2),
-     }));
-
-    const minPrice = parseFloat(req.query.minPrice) || 0;
-    const maxPrice = parseFloat(req.query.maxPrice) || Infinity;
-    const minScore = parseFloat(req.query.minScore) || 0;
-    const maxScore = parseFloat(req.query.maxScore) || Infinity;
-
-    data = data.filter(
-      (product) =>
-        product.price >= minPrice &&
-        product.price <= maxPrice &&
-        product.popularityScore >= minScore &&
-        product.popularityScore <= maxScore
-    );
-
-
+    console.log(data)
     res.status(200).json({ success: true, data });
   } catch (err) {
     console.error("Error reading or parsing JSON:", err);

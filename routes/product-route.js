@@ -7,5 +7,5 @@ import {
 
 
 
-router.route("/get-all-products").get(getAllProducts);
+router.route("/doctors").get(getAllProducts);
 export default router;

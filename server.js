@@ -24,7 +24,7 @@ app.use(express.json());
 
 
 // routes
-app.use("/api/v1/product", productRouter);
+app.use("/api/v1", productRouter);
 
 
 app.use("*", (req, res) => {
@@ -35,7 +35,7 @@ app.use("*", (req, res) => {
 app.use(notFound);
 app.use(errorHandle);
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 try {
   app.listen(PORT, () => {
