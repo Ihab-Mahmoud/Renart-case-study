@@ -17,7 +17,6 @@ export { default as LogoutContainer } from "./logoutContainer.jsx";
 // export { default as SearchContainer } from "./searchContainer.jsx";
 export { default as Loading } from "./Lodaing.jsx";
 export { default as ErrorElement } from "./ErrorElement.jsx";
-export {default as Report} from "./report.jsx"
 export {default as ReportElement} from "./repElement.jsx"
 export { default as ProgressBar } from "./ProgressBar.jsx";
 export { default as Control } from "./Control.jsx";
