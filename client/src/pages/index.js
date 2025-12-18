@@ -3,7 +3,7 @@ export { default as DashboardLayout } from "./dashboard.jsx";
 export { default as HomeLayout } from "./home.jsx";
 // export { default as Register } from "./register.jsx";
 // export { default as Login } from "./login.jsx";
-export { default as Error } from "./error.jsx";
+export { default as Error } from "./Error.jsx";
 export { default as Help } from "./help.jsx";
 export { default as System } from ".//system.jsx";
 export { default as BookingPage } from "./booking.jsx";
