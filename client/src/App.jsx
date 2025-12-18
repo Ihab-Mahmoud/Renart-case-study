@@ -23,7 +23,7 @@ import {
 import { CheckTheme } from "./pages/dashboard.jsx";
 // actions and loaders
 // import { registerSubmit } from "./utils/register-submit.jsx";
-import { Action as loginAction } from "./pages/Login.jsx";
+import { Action as loginAction } from "./pages/login.jsx";
 import { Action as registerAction } from "./pages/register.jsx";
 import { Loader as DashboardLoader } from "./pages/dashboard.jsx";
 import { Loader as registerLoader } from "./pages/register.jsx";
