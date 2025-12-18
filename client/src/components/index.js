@@ -21,7 +21,7 @@ export { default as NotificationElement } from "./notificationElement.jsx";
 export { default as Notification } from "./notification.jsx";
 export {default as Report} from "./report.jsx"
 export {default as ReportElement} from "./repElement.jsx"
-export {default as Materials} from "./materials.jsx"
+export {default as Materials} from "./Materials.jsx"
 export { default as Overview } from "./overview.jsx";
 export { default as ProgressBar } from "./ProgressBar.jsx";
 export { default as Control } from "./Control.jsx";
