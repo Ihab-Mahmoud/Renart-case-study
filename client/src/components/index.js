@@ -17,12 +17,8 @@ export { default as LogoutContainer } from "./logoutContainer.jsx";
 // export { default as SearchContainer } from "./searchContainer.jsx";
 export { default as Loading } from "./Lodaing.jsx";
 export { default as ErrorElement } from "./ErrorElement.jsx";
-export { default as NotificationElement } from "./notificationElement.jsx";
-export { default as Notification } from "./notification.jsx";
 export {default as Report} from "./report.jsx"
 export {default as ReportElement} from "./repElement.jsx"
-export {default as Materials} from "./Materials.jsx"
-export { default as Overview } from "./overview.jsx";
 export { default as ProgressBar } from "./ProgressBar.jsx";
 export { default as Control } from "./Control.jsx";
 export { default as Toggle } from "./Toggle.jsx";
@@ -30,5 +26,4 @@ export { default as ToggleComponent } from "./toggleComponent.jsx";
 export { default as Status } from "./Status.jsx";
 export { default as Info } from "./Info.jsx";
 export { default as Machine } from "./machine.jsx";
-export { default as Caleneder } from "./Calender.jsx";
 // export { default as ErrorElement } from "./ErrorElement.jsx";
